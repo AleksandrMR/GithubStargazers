@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D8AAF2E4DBFA7A2BDC4BEB /* Pods_GithubStargazers_GithubStargazersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C000EE4A15A111CF9AE6BBC /* Pods_GithubStargazers_GithubStargazersUITests.framework */; };
+		1F37B02925ECCEED000FCA78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B02825ECCEED000FCA78 /* AppDelegate.swift */; };
+		1F37B02B25ECCEED000FCA78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B02A25ECCEED000FCA78 /* SceneDelegate.swift */; };
+		1F37B02D25ECCEED000FCA78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B02C25ECCEED000FCA78 /* ViewController.swift */; };
+		1F37B03025ECCEED000FCA78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F37B02E25ECCEED000FCA78 /* Main.storyboard */; };
+		1F37B03225ECCEEE000FCA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F37B03125ECCEEE000FCA78 /* Assets.xcassets */; };
+		1F37B03525ECCEEE000FCA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F37B03325ECCEEE000FCA78 /* LaunchScreen.storyboard */; };
+		1F37B04025ECCEEE000FCA78 /* GithubStargazersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B03F25ECCEEE000FCA78 /* GithubStargazersTests.swift */; };
+		1F37B04B25ECCEEE000FCA78 /* GithubStargazersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B04A25ECCEEE000FCA78 /* GithubStargazersUITests.swift */; };
+		1F37B07025ECD014000FCA78 /* ServerPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B06F25ECD014000FCA78 /* ServerPaths.swift */; };
+		1F37B07D25ECD025000FCA78 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B07C25ECD025000FCA78 /* URLRequestBuilder.swift */; };
+		1F37B08225ECD034000FCA78 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B08125ECD034000FCA78 /* RequestRouter.swift */; };
+		1F37B08725ECD040000FCA78 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B08625ECD040000FCA78 /* RequestManager.swift */; };
+		1F37B08D25ECD0E6000FCA78 /* ListStargazers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B08C25ECD0E6000FCA78 /* ListStargazers.swift */; };
+		1F37B09D25ECD1A8000FCA78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B09C25ECD1A8000FCA78 /* Constants.swift */; };
+		1F37B0A525ECD1DC000FCA78 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B0A425ECD1DC000FCA78 /* UIViewExtension.swift */; };
+		1F37B0AA25ECD1FA000FCA78 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B0A925ECD1FA000FCA78 /* UIViewControllerExtension.swift */; };
+		1F37B0B825ECD2E5000FCA78 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37B0B725ECD2E5000FCA78 /* CustomViewCell.swift */; };
+		6C6207090DF3D39841F14EE7 /* Pods_GithubStargazersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A28DB98A5A93AE24F97F2 /* Pods_GithubStargazersTests.framework */; };
+		F0D6CF84D47B7C6E2FE22172 /* Pods_GithubStargazers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149B6429CD762DF1D3D10702 /* Pods_GithubStargazers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F37B03C25ECCEEE000FCA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F37B01D25ECCEED000FCA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F37B02425ECCEED000FCA78;
+			remoteInfo = GithubStargazers;
+		};
+		1F37B04725ECCEEE000FCA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F37B01D25ECCEED000FCA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F37B02425ECCEED000FCA78;
+			remoteInfo = GithubStargazers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FDD050C3D33E86B0F81DC2 /* Pods-GithubStargazersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazersTests.release.xcconfig"; path = "Target Support Files/Pods-GithubStargazersTests/Pods-GithubStargazersTests.release.xcconfig"; sourceTree = "<group>"; };
+		149B6429CD762DF1D3D10702 /* Pods_GithubStargazers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubStargazers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F37B02525ECCEED000FCA78 /* GithubStargazers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubStargazers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F37B02825ECCEED000FCA78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F37B02A25ECCEED000FCA78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F37B02C25ECCEED000FCA78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F37B02F25ECCEED000FCA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F37B03125ECCEEE000FCA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F37B03425ECCEEE000FCA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F37B03625ECCEEE000FCA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = GithubStargazers/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		1F37B03B25ECCEEE000FCA78 /* GithubStargazersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubStargazersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F37B03F25ECCEEE000FCA78 /* GithubStargazersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubStargazersTests.swift; sourceTree = "<group>"; };
+		1F37B04125ECCEEE000FCA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F37B04625ECCEEE000FCA78 /* GithubStargazersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubStargazersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F37B04A25ECCEEE000FCA78 /* GithubStargazersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubStargazersUITests.swift; sourceTree = "<group>"; };
+		1F37B04C25ECCEEE000FCA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F37B06F25ECD014000FCA78 /* ServerPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPaths.swift; sourceTree = "<group>"; };
+		1F37B07C25ECD025000FCA78 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		1F37B08125ECD034000FCA78 /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		1F37B08625ECD040000FCA78 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		1F37B08C25ECD0E6000FCA78 /* ListStargazers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStargazers.swift; sourceTree = "<group>"; };
+		1F37B09C25ECD1A8000FCA78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F37B0A425ECD1DC000FCA78 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1F37B0A925ECD1FA000FCA78 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		1F37B0B725ECD2E5000FCA78 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		2C8CFACFBCCB3EAC690F6277 /* Pods-GithubStargazers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazers.release.xcconfig"; path = "Target Support Files/Pods-GithubStargazers/Pods-GithubStargazers.release.xcconfig"; sourceTree = "<group>"; };
+		2D6BD5C42DF06CF6FAE0772B /* Pods-GithubStargazers-GithubStargazersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazers-GithubStargazersUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubStargazers-GithubStargazersUITests/Pods-GithubStargazers-GithubStargazersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F335A0C9359D6E837356335 /* Pods-GithubStargazers-GithubStargazersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazers-GithubStargazersUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubStargazers-GithubStargazersUITests/Pods-GithubStargazers-GithubStargazersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44F9012F732AF6915FB1F191 /* Pods-GithubStargazersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazersTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubStargazersTests/Pods-GithubStargazersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C000EE4A15A111CF9AE6BBC /* Pods_GithubStargazers_GithubStargazersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubStargazers_GithubStargazersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFEC148C9E0CD54D8C1DF6B /* Pods-GithubStargazers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubStargazers.debug.xcconfig"; path = "Target Support Files/Pods-GithubStargazers/Pods-GithubStargazers.debug.xcconfig"; sourceTree = "<group>"; };
+		C55A28DB98A5A93AE24F97F2 /* Pods_GithubStargazersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubStargazersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F37B02225ECCEED000FCA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D6CF84D47B7C6E2FE22172 /* Pods_GithubStargazers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B03825ECCEEE000FCA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6207090DF3D39841F14EE7 /* Pods_GithubStargazersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B04325ECCEEE000FCA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D8AAF2E4DBFA7A2BDC4BEB /* Pods_GithubStargazers_GithubStargazersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F37B01C25ECCEED000FCA78 = {
+			isa = PBXGroup;
+			children = (
+				1F37B02725ECCEED000FCA78 /* GithubStargazers */,
+				1F37B03E25ECCEEE000FCA78 /* GithubStargazersTests */,
+				1F37B04925ECCEEE000FCA78 /* GithubStargazersUITests */,
+				1F37B02625ECCEED000FCA78 /* Products */,
+				5507698CF7C20A857A2E766D /* Pods */,
+				75801B1B73B119B9DB086775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F37B02625ECCEED000FCA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B02525ECCEED000FCA78 /* GithubStargazers.app */,
+				1F37B03B25ECCEEE000FCA78 /* GithubStargazersTests.xctest */,
+				1F37B04625ECCEEE000FCA78 /* GithubStargazersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F37B02725ECCEED000FCA78 /* GithubStargazers */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B06E25ECCFFB000FCA78 /* Networking */,
+				1F37B08B25ECD0D1000FCA78 /* Model */,
+				1F37B09525ECD125000FCA78 /* View */,
+				1F37B09625ECD13A000FCA78 /* Controller */,
+				1F37B09B25ECD191000FCA78 /* Constants */,
+				1F37B09725ECD152000FCA78 /* Extensions */,
+				1F37B09425ECD104000FCA78 /* SupportingFiles */,
+			);
+			path = GithubStargazers;
+			sourceTree = "<group>";
+		};
+		1F37B03E25ECCEEE000FCA78 /* GithubStargazersTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B03F25ECCEEE000FCA78 /* GithubStargazersTests.swift */,
+				1F37B04125ECCEEE000FCA78 /* Info.plist */,
+			);
+			path = GithubStargazersTests;
+			sourceTree = "<group>";
+		};
+		1F37B04925ECCEEE000FCA78 /* GithubStargazersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B04A25ECCEEE000FCA78 /* GithubStargazersUITests.swift */,
+				1F37B04C25ECCEEE000FCA78 /* Info.plist */,
+			);
+			path = GithubStargazersUITests;
+			sourceTree = "<group>";
+		};
+		1F37B06E25ECCFFB000FCA78 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B06F25ECD014000FCA78 /* ServerPaths.swift */,
+				1F37B07C25ECD025000FCA78 /* URLRequestBuilder.swift */,
+				1F37B08125ECD034000FCA78 /* RequestRouter.swift */,
+				1F37B08625ECD040000FCA78 /* RequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1F37B08B25ECD0D1000FCA78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B08C25ECD0E6000FCA78 /* ListStargazers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F37B09425ECD104000FCA78 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B02825ECCEED000FCA78 /* AppDelegate.swift */,
+				1F37B02A25ECCEED000FCA78 /* SceneDelegate.swift */,
+				1F37B03325ECCEEE000FCA78 /* LaunchScreen.storyboard */,
+				1F37B03125ECCEEE000FCA78 /* Assets.xcassets */,
+				1F37B03625ECCEEE000FCA78 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1F37B09525ECD125000FCA78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B02E25ECCEED000FCA78 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F37B09625ECD13A000FCA78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B02C25ECCEED000FCA78 /* ViewController.swift */,
+				1F37B0AE25ECD219000FCA78 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F37B09725ECD152000FCA78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B0A425ECD1DC000FCA78 /* UIViewExtension.swift */,
+				1F37B0A925ECD1FA000FCA78 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F37B09B25ECD191000FCA78 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B09C25ECD1A8000FCA78 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1F37B0AE25ECD219000FCA78 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F37B0B725ECD2E5000FCA78 /* CustomViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5507698CF7C20A857A2E766D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABFEC148C9E0CD54D8C1DF6B /* Pods-GithubStargazers.debug.xcconfig */,
+				2C8CFACFBCCB3EAC690F6277 /* Pods-GithubStargazers.release.xcconfig */,
+				2F335A0C9359D6E837356335 /* Pods-GithubStargazers-GithubStargazersUITests.debug.xcconfig */,
+				2D6BD5C42DF06CF6FAE0772B /* Pods-GithubStargazers-GithubStargazersUITests.release.xcconfig */,
+				44F9012F732AF6915FB1F191 /* Pods-GithubStargazersTests.debug.xcconfig */,
+				06FDD050C3D33E86B0F81DC2 /* Pods-GithubStargazersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75801B1B73B119B9DB086775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149B6429CD762DF1D3D10702 /* Pods_GithubStargazers.framework */,
+				4C000EE4A15A111CF9AE6BBC /* Pods_GithubStargazers_GithubStargazersUITests.framework */,
+				C55A28DB98A5A93AE24F97F2 /* Pods_GithubStargazersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F37B02425ECCEED000FCA78 /* GithubStargazers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F37B04F25ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazers" */;
+			buildPhases = (
+				BEFE95B3683B2241D67E8239 /* [CP] Check Pods Manifest.lock */,
+				1F37B02125ECCEED000FCA78 /* Sources */,
+				1F37B02225ECCEED000FCA78 /* Frameworks */,
+				1F37B02325ECCEED000FCA78 /* Resources */,
+				76F565004910EE07B830BC86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GithubStargazers;
+			productName = GithubStargazers;
+			productReference = 1F37B02525ECCEED000FCA78 /* GithubStargazers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F37B03A25ECCEEE000FCA78 /* GithubStargazersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F37B05225ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazersTests" */;
+			buildPhases = (
+				AF8886F7074932136AFE57D3 /* [CP] Check Pods Manifest.lock */,
+				1F37B03725ECCEEE000FCA78 /* Sources */,
+				1F37B03825ECCEEE000FCA78 /* Frameworks */,
+				1F37B03925ECCEEE000FCA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F37B03D25ECCEEE000FCA78 /* PBXTargetDependency */,
+			);
+			name = GithubStargazersTests;
+			productName = GithubStargazersTests;
+			productReference = 1F37B03B25ECCEEE000FCA78 /* GithubStargazersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F37B04525ECCEEE000FCA78 /* GithubStargazersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F37B05525ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazersUITests" */;
+			buildPhases = (
+				0569C3133A0E896D736CED81 /* [CP] Check Pods Manifest.lock */,
+				1F37B04225ECCEEE000FCA78 /* Sources */,
+				1F37B04325ECCEEE000FCA78 /* Frameworks */,
+				1F37B04425ECCEEE000FCA78 /* Resources */,
+				649712019DB02F24D7091224 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F37B04825ECCEEE000FCA78 /* PBXTargetDependency */,
+			);
+			name = GithubStargazersUITests;
+			productName = GithubStargazersUITests;
+			productReference = 1F37B04625ECCEEE000FCA78 /* GithubStargazersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F37B01D25ECCEED000FCA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1F37B02425ECCEED000FCA78 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1F37B03A25ECCEEE000FCA78 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F37B02425ECCEED000FCA78;
+					};
+					1F37B04525ECCEEE000FCA78 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F37B02425ECCEED000FCA78;
+					};
+				};
+			};
+			buildConfigurationList = 1F37B02025ECCEED000FCA78 /* Build configuration list for PBXProject "GithubStargazers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F37B01C25ECCEED000FCA78;
+			productRefGroup = 1F37B02625ECCEED000FCA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F37B02425ECCEED000FCA78 /* GithubStargazers */,
+				1F37B03A25ECCEEE000FCA78 /* GithubStargazersTests */,
+				1F37B04525ECCEEE000FCA78 /* GithubStargazersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F37B02325ECCEED000FCA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37B03525ECCEEE000FCA78 /* LaunchScreen.storyboard in Resources */,
+				1F37B03225ECCEEE000FCA78 /* Assets.xcassets in Resources */,
+				1F37B03025ECCEED000FCA78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B03925ECCEEE000FCA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B04425ECCEEE000FCA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0569C3133A0E896D736CED81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubStargazers-GithubStargazersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649712019DB02F24D7091224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers-GithubStargazersUITests/Pods-GithubStargazers-GithubStargazersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers-GithubStargazersUITests/Pods-GithubStargazers-GithubStargazersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers-GithubStargazersUITests/Pods-GithubStargazers-GithubStargazersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F565004910EE07B830BC86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers/Pods-GithubStargazers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers/Pods-GithubStargazers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubStargazers/Pods-GithubStargazers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8886F7074932136AFE57D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubStargazersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFE95B3683B2241D67E8239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubStargazers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F37B02125ECCEED000FCA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37B0A525ECD1DC000FCA78 /* UIViewExtension.swift in Sources */,
+				1F37B02D25ECCEED000FCA78 /* ViewController.swift in Sources */,
+				1F37B0B825ECD2E5000FCA78 /* CustomViewCell.swift in Sources */,
+				1F37B08D25ECD0E6000FCA78 /* ListStargazers.swift in Sources */,
+				1F37B07D25ECD025000FCA78 /* URLRequestBuilder.swift in Sources */,
+				1F37B08225ECD034000FCA78 /* RequestRouter.swift in Sources */,
+				1F37B02925ECCEED000FCA78 /* AppDelegate.swift in Sources */,
+				1F37B08725ECD040000FCA78 /* RequestManager.swift in Sources */,
+				1F37B02B25ECCEED000FCA78 /* SceneDelegate.swift in Sources */,
+				1F37B07025ECD014000FCA78 /* ServerPaths.swift in Sources */,
+				1F37B0AA25ECD1FA000FCA78 /* UIViewControllerExtension.swift in Sources */,
+				1F37B09D25ECD1A8000FCA78 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B03725ECCEEE000FCA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37B04025ECCEEE000FCA78 /* GithubStargazersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F37B04225ECCEEE000FCA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37B04B25ECCEEE000FCA78 /* GithubStargazersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F37B03D25ECCEEE000FCA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F37B02425ECCEED000FCA78 /* GithubStargazers */;
+			targetProxy = 1F37B03C25ECCEEE000FCA78 /* PBXContainerItemProxy */;
+		};
+		1F37B04825ECCEEE000FCA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F37B02425ECCEED000FCA78 /* GithubStargazers */;
+			targetProxy = 1F37B04725ECCEEE000FCA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F37B02E25ECCEED000FCA78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F37B02F25ECCEED000FCA78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F37B03325ECCEEE000FCA78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F37B03425ECCEEE000FCA78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F37B04D25ECCEEE000FCA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F37B04E25ECCEEE000FCA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F37B05025ECCEEE000FCA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFEC148C9E0CD54D8C1DF6B /* Pods-GithubStargazers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazers/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F37B05125ECCEEE000FCA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8CFACFBCCB3EAC690F6277 /* Pods-GithubStargazers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazers/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F37B05325ECCEEE000FCA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F9012F732AF6915FB1F191 /* Pods-GithubStargazersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubStargazers.app/GithubStargazers";
+			};
+			name = Debug;
+		};
+		1F37B05425ECCEEE000FCA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FDD050C3D33E86B0F81DC2 /* Pods-GithubStargazersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubStargazers.app/GithubStargazers";
+			};
+			name = Release;
+		};
+		1F37B05625ECCEEE000FCA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F335A0C9359D6E837356335 /* Pods-GithubStargazers-GithubStargazersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GithubStargazers;
+			};
+			name = Debug;
+		};
+		1F37B05725ECCEEE000FCA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6BD5C42DF06CF6FAE0772B /* Pods-GithubStargazers-GithubStargazersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXGYHST7SN;
+				INFOPLIST_FILE = GithubStargazersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrMilashevski.GithubStargazersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GithubStargazers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F37B02025ECCEED000FCA78 /* Build configuration list for PBXProject "GithubStargazers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F37B04D25ECCEEE000FCA78 /* Debug */,
+				1F37B04E25ECCEEE000FCA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F37B04F25ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F37B05025ECCEEE000FCA78 /* Debug */,
+				1F37B05125ECCEEE000FCA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F37B05225ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F37B05325ECCEEE000FCA78 /* Debug */,
+				1F37B05425ECCEEE000FCA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F37B05525ECCEEE000FCA78 /* Build configuration list for PBXNativeTarget "GithubStargazersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F37B05625ECCEEE000FCA78 /* Debug */,
+				1F37B05725ECCEEE000FCA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F37B01D25ECCEED000FCA78 /* Project object */;
+}
